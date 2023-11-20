@@ -1,12 +1,9 @@
-import './App.css';
+import React from 'react';
+import About from './objects/About';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <a href="#to-do" className='about'>About</a>
-      </header>
-    </div>
+      <About />
   );
 }
 
