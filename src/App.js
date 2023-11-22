@@ -1,9 +1,9 @@
 import React from 'react';
-import About from './objects/About';
+import Header from './components/Header';
 
 function App() {
   return (
-      <About />
+    <Header ></Header>
   );
 }
 
