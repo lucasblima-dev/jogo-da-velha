@@ -1,5 +1,15 @@
 .header {
-    margin: 30px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px 35px;
+}
+
+.header > .about {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.header > .menu {
+    width: 25px;
 }
